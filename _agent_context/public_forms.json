@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "objektverwaltung",
+      "app_id": "6a509f6c054779eb935038b7",
+      "path": "/rest/apps/6a509f6c054779eb935038b7/records",
+      "allowed_fields": [
+        "bezeichnung",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "stadt",
+        "baujahr",
+        "anzahl_einheiten",
+        "vermietungsstand"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Objektverwaltung — Formular"
+    },
+    {
+      "entity": "maengelverwaltung",
+      "app_id": "6a509f6e847d39d638f5f86a",
+      "path": "/rest/apps/6a509f6e847d39d638f5f86a/records",
+      "allowed_fields": [
+        "beschreibung",
+        "dringlichkeit",
+        "melder_vorname",
+        "melder_nachname",
+        "meldedatum",
+        "handwerker",
+        "status"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Mängelverwaltung — Formular"
+    }
+  ]
+}

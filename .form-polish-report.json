@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Objektverwaltung": {
+      "placeholders_set": 8,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten — nur Adressfelder und Zähl-Felder ohne Berechnung oder zeitliche Komponente. Vermietungsstand könnte theoretisch als Prozentsatz berechnet werden (vermietungsstand / anzahl_einheiten), aber Semantik unklar und User bucht diese Werte bewusst ein — keine automatische Berechnung sinnvoll."
+    },
+    "Mängelverwaltung": {
+      "placeholders_set": 8,
+      "defaults_keys": ["meldedatum", "dringlichkeit", "status"],
+      "computed_keys": [],
+      "reason": "Meldungs-Entity ohne Preise oder Mengen-Produkte. Meldedatum als 'today' vorbelegt (Erfassung zum aktuellen Datum), Status auf 'offen' (Standard-Workflow-Start), Dringlichkeit auf 'mittel' (sinnvolle Mittelposition). Keine computed-Formeln — die applookup auf Objektverwaltung zieht nur Kontext-Informationen, keine numerischen Werte."
+    }
+  }
+}

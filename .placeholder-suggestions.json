@@ -1,0 +1,22 @@
+{
+  "ObjektverwaltungDialog.tsx": {
+    "bezeichnung":         "z. B. Mietshaus Hauptstraße",
+    "strasse":             "z. B. Hauptstraße",
+    "hausnummer":          "z. B. 42",
+    "plz":                 "z. B. 10115",
+    "stadt":               "z. B. Berlin",
+    "baujahr":             "z. B. 1985",
+    "anzahl_einheiten":    "z. B. 8",
+    "vermietungsstand":    "z. B. 7"
+  },
+  "MaengelverwaltungDialog.tsx": {
+    "objekt":              "Welches Objekt betroffen?",
+    "beschreibung":        "Was ist genau beschädigt? Wo, wie schlimm?",
+    "melder_vorname":      "z. B. Anna",
+    "melder_nachname":     "z. B. Schmidt",
+    "meldedatum":          "Wann wurde der Schaden gemeldet?",
+    "handwerker":          "Name oder Firma",
+    "dringlichkeit":       "z. B. Niedrig, Mittel, Hoch",
+    "status":              "z. B. Offen, Beauftragt, Erledigt"
+  }
+}

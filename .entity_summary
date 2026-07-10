@@ -1,0 +1,3 @@
+- Objektverwaltung (objektverwaltung): bezeichnung[string/text], strasse[string/text], hausnummer[string/text], plz[string/text], stadt[string/text], baujahr[number], anzahl_einheiten[number], vermietungsstand[number]
+- Mängelverwaltung (maengelverwaltung): objekt[applookup/select], beschreibung[string/textarea], dringlichkeit[lookup/radio], melder_vorname[string/text], melder_nachname[string/text], meldedatum[date/date], handwerker[string/text], status[lookup/radio], fotos[file]
+  → objekt links to app_id 6a509f6c054779eb935038b7
